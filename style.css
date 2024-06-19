@@ -1,0 +1,103 @@
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+}
+
+.container {
+    width: 743px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4777ED;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px;
+}
+
+.button {
+    width: 170px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #4777ED;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.middle-section div {
+    margin-bottom: 7px;
+}
+
+.checklist-title {
+    width: 60px;
+    height: 18px;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 0 10px;
+    border-radius: 40px;
+    background-color: #2364DB;
+    color: #fff;
+}
+
+.completed-actions {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.next-action {
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+}
+
+.progress-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.progress-circle {
+    width: 400;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#007bff var(--progress), #4777ED var(--progress));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+
+.progress-circle span {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
